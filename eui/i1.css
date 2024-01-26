@@ -1,0 +1,100 @@
+.search1 {
+    margin: 20px 20px 20px 50px;
+    border: none !important;
+    border-radius: 10px;
+    background-color:white;
+    height:30px
+}
+
+body {
+    background-color:#EDCAB1
+}
+.search_input {
+    height:auto;
+    border:none;
+    border-radius:0 10px 10px 0;
+    outline: none;
+}
+.nav1 {
+    background-color:#AF9156;
+    width: 100%;
+    position: sticky;
+}
+
+.right-nav {
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    right: 20px;
+}
+
+.cat > img {
+    width:100px;
+	height: 150px
+}
+
+.cat {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    flex-direction: column;
+    gap:.5rem;
+    box-shadow: -1px 1px 5px 0px grey;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.cat:hover {
+    box-shadow: 0px 5px 15px 1px grey;
+    transform: translateY(-4px)
+}
+
+.active {
+   background-color:#AF9156;
+   color:white;
+   transition: .2s;
+}
+
+.bookcard {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-evenly;
+	width: 90%;
+	background-color:#E1D3C9;
+}
+
+.bookcard > div:nth-child(2) {
+    width: 50%;
+}
+
+.checked {
+	color: orange;
+}
+
+.bookcard > img {
+	height: 200px;
+	width: 150px
+}
+
+.ordercard {
+    display: flex;
+    width: 200px;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 200px;
+    align-items: center;
+    box-shadow:-1px 1px 5px 0px grey;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.ordercard:hover {
+    box-shadow: 0px 5px 15px 1px grey;
+    transform: translateY(-4px)
+}
